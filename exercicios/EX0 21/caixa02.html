@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            background-color: dimgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            padding: 15px;
+        }
+
+        header {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+            box-shadow: inset 2px 1px 14px 6px rgb(143, 143, 143);
+        }
+
+        img {
+            width: 19px;
+            padding-left: 9px;
+            padding-top: 9px;
+
+        }
+
+        nav {
+            background-color: rgb(116, 112, 112);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article {
+            background-color: lightgrey;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(73, 73, 73);
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            margin: auto;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Minhas redes sociais</h1>
+        <nav>
+            <a href="https://www.youtube.com/" target="_blank"> <img src="youtube.png" alt=""></a>
+            <a href="https://www.instagram.com/astronazz0/" target="_blank"> <img src="insta.png" alt=""></a>
+            <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D" target="_blank"> <img src="twi.png" alt=""></a>
+            <a href="https://www.facebook.com/campaign/landing.php?&campaign_id=1661784632&extra_1=s%7Cc%7C513440386732%7Ce%7Cfacebook%7C&placement=&creative=513440386732&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1661784632%26adgroupid%3D63686352403%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1001754%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAiAiP2tBhBXEiwACslfnmnyjHYH3JKL6VvoDfla93Fdx54DuxHNgPovjCIJcifGDT1KCBGR3BoCVQwQAvD_BwE" target="_blank"> <img src="face.png" alt=""></a>
+
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquam voluptatibus eos modi voluptatem obcaecati, quidem rem. Voluptate dolor cumque natus, ab vero maiores doloremque perspiciatis incidunt dolorem, sequi atque.</p>
+                <aside>
+                    <p>Artigo escrito por José da silva</p>
+                </aside>
+            </article>
+        </section>
+
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo cursoem/video</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
